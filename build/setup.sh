@@ -68,6 +68,11 @@ sudo nginx -t
 sudo systemctl reload nginx
 
 
+#	ACCESSIBILITE
+snap install ngrok
+./mon-serveur --port 8080
+ngrok http 8080
+#	choose sub domain 
 
 
 #	ARBORESSENCE DE FICHIERS
@@ -119,6 +124,12 @@ sudo systemctl reload nginx
 /var/log/nginx/
 ├── monsite.access.log
 └── monsite.error.log
+
+
+#	CHECKUP
+sudo ufw allow 80
+sudo ufw delete allow 80
+
 
 #	Conseils de sécurité & bonnes pratiques rapides
 
