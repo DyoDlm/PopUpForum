@@ -3,3 +3,30 @@
 #	Boutons : "boite a idee", "prop event", "prop stand", "agenda", "news"
 #
 #	proto : Bouton + image + descriptif 
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Forum - PopUpForum</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <h2>Espace Forum</h2>
+  <img src="../assets/images/forum.png" alt="Forum" width="300">
+
+  <form action="../cgi/submit_idea.cgi" method="post">
+    <label for="idea">Partagez une idée :</label><br>
+    <input type="text" id="idea" name="idea" placeholder="Votre idée...">
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <nav>
+    <a href="FormulaireEvent.html">Proposer un événement</a> |
+    <a href="FormulaireStand.html">Proposer un stand</a> |
+    <a href="IdeasBox.html">Boîte à idées</a>
+  </nav>
+</body>
+</html>
+

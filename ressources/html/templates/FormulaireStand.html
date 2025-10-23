@@ -7,4 +7,26 @@
 #	3) style ? 
 #	4) journee (verifier les dispo dans map ... )
 #	5) autres ...
-#
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Proposer un stand - PopUpForum</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <h2>Proposer un stand</h2>
+  <img src="../assets/images/stand.jpg" alt="Stand" width="300">
+
+  <form action="../cgi/submit_stand.cgi" method="post">
+    <label for="standName">Nom du stand :</label>
+    <input type="text" id="standName" name="standName" required>
+    <button type="submit">Soumettre</button>
+  </form>
+
+  <p><a href="Forum.html">Retour au forum</a></p>
+</body>
+</html>
+

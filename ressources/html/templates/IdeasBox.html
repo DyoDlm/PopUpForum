@@ -1,1 +1,23 @@
 #	Poster une idee + Visualisee les autres idees proposees (ft_IRC CGI ? )
+#
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Boîte à idées - PopUpForum</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <h2>Boîte à idées 💭</h2>
+  <img src="../assets/images/ideas.jpg" alt="Boîte à idées" width="300">
+
+  <form action="../cgi/ideas_submit.cgi" method="post">
+    <textarea name="idea" rows="4" cols="40" placeholder="Déposez votre idée ici..."></textarea><br>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <p><a href="Forum.html">Retour au forum</a></p>
+</body>
+</html>
+

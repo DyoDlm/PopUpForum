@@ -8,5 +8,24 @@
 #		3) Proposition ...
 #		4) etc etc ...
 #
-#
-#
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Proposer un événement - PopUpForum</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <h2>Proposer un événement</h2>
+  <img src="../assets/images/event.jpg" alt="Événement" width="300">
+
+  <form action="../cgi/submit_event.cgi" method="post">
+    <label for="eventName">Nom de l'événement :</label><br>
+    <input type="text" id="eventName" name="eventName" required>
+    <button type="submit">Soumettre</button>
+  </form>
+
+  <p><a href="Forum.html">Retour au forum</a></p>
+</body>
+</html>
+
