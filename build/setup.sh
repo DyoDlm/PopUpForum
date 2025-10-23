@@ -3,6 +3,18 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install -y nginx ufw
 
+
+#	DEPENDENCES
+
+#	calendar
+npm install @daypilot/daypilot-lite-javascript	# js
+npm install @daypilot/daypilot-lite-angular	# angular
+npm install @daypilot/daypilot-lite-react	# react
+npm install @daypilot/daypilot-lite-vue		# vue
+
+
+
+
 #	DEMARAGE SERVEUR
 sudo systemctl enable --now nginx
 sudo systemctl status nginx    # pour vérifier qu'il tourne
