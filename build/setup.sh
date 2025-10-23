@@ -7,10 +7,10 @@ sudo apt install -y nginx ufw
 #	DEPENDENCES
 
 #	calendar
-npm install @daypilot/daypilot-lite-javascript	# js
-npm install @daypilot/daypilot-lite-angular	# angular
-npm install @daypilot/daypilot-lite-react	# react
-npm install @daypilot/daypilot-lite-vue		# vue
+#npm install @daypilot/daypilot-lite-javascript	# js
+#npm install @daypilot/daypilot-lite-angular	# angular
+#npm install @daypilot/daypilot-lite-react	# react
+#npm install @daypilot/daypilot-lite-vue		# vue
 
 
 
@@ -58,6 +58,7 @@ sudo apt install -y fcgiwrap
 # sur certaines distros il faut aussi spawn-fcgi, ou activer la socket systemd fcgiwrap.socket
 sudo systemctl enable --now fcgiwrap.socket
 sudo systemctl status fcgiwrap.socket
+
 
 
 #	RECHARGER
